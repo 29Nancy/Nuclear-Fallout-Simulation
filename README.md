@@ -1,12 +1,13 @@
 Nuclear Fallout Simulation Using DELFIC and WSEG Models
 
-📖 Overview
+📖 OVERVIEW
 
 This project is an offline nuclear fallout simulation and visualization system designed to model radioactive fallout dispersion following a surface nuclear detonation. The application estimates fallout plume geometry, radiation dose rates, integrated radiation exposure, and population-level casualties using both physics-based and empirical modeling approaches.
 
 The system is intended for educational, academic, and research purposes, enabling users to study post-detonation fallout behavior without requiring internet connectivity or real-time data sources.
 
-🎯 Objectives
+
+🎯 OBJECTIVES
 
 Simulate radioactive fallout dispersion after a nuclear detonation
 
@@ -20,7 +21,9 @@ Assess population exposure and casualty estimates
 
 Provide an interactive tool for post-detonation risk analysis
 
-🧠 Models Implemented
+
+🧠 MODELS IMPLEMENTED
+
 1️⃣ DELFIC Model (Physics-Based)
 
 Fallout particle size stratification
@@ -35,6 +38,7 @@ Dose rate estimation and time integration
 
 Casualty estimation based on radiation exposure
 
+
 2️⃣ WSEG-10 Model (Empirical)
 
 Elliptical fallout plume geometry
@@ -47,7 +51,8 @@ Rapid casualty estimation
 
 Suitable for fast, approximate fallout assessment
 
-🗺️ Key Features
+
+🗺️ KEY FEATURES
 
 Fully offline operation
 
@@ -63,7 +68,8 @@ Shielding and exposure duration analysis
 
 Comparative modeling using two established fallout methods
 
-🛠️ Technology Stack
+
+🛠️ TECHNOLOGY STACK
 
 Python
 
@@ -75,7 +81,8 @@ Offline OpenStreetMap tiles
 
 OpenCV – contour rendering (optional)
 
-⚙️ Application Workflow
+
+⚙️ APPLICATION WORKFLOW
 
 User selects the target location on the map
 
@@ -91,11 +98,13 @@ Casualty estimates and exposure statistics are generated
 
 User can click on the map to compute local radiation dose
 
-🗺️ Offline Map Setup
+
+🗺️ OFFLINE MAP SETUP
 
 Ensure offline OpenStreetMap tiles are available in the assets/ directory
 
 The application does not require internet access during runtime
+
 
 ▶️ How to Run the Application
 🔧 Prerequisites
@@ -107,6 +116,7 @@ Python 3.9 or higher
 pip (Python package manager)
 
 System capable of running Kivy GUI applications
+
 
 📦 Install Dependencies
 
@@ -138,6 +148,7 @@ python main.py
 
 
 The graphical user interface will launch automatically.
+
 
 🧭 How to Use the Application
 Step 1: Select Target Location
@@ -182,7 +193,8 @@ Click any map location to compute radiation exposure
 
 Review estimated casualties and affected areas
 
-📊 Outputs
+
+📊 OUTPUTS
 
 Fallout plume visualization
 
@@ -194,7 +206,10 @@ Casualty breakdown (fatal, severe, moderate, mild)
 
 Affected area estimation
 
-📂 Repository Structure
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc4dfcd8-bbaf-4f67-a0e9-c2acf2ed3dbc" />
+
+
+📂 REPOSITORY STRUCTURE
 ├── main.py                  # Application entry point
 ├── delfic_engine.py         # Physics-based fallout model
 ├── wseg_core.py             # Empirical fallout model
@@ -205,7 +220,7 @@ Affected area estimation
 ├── docs/                    # Project report and references
 └── README.md
 
-🚨 Disclaimer
+🚨 DISCLAIMER
 
 This project is intended strictly for educational, academic, and research purposes.
 It does not support weapon design, targeting, or operational deployment.
