@@ -81,6 +81,7 @@ User can click on the map to compute local radiation dose
 🗺️ OFFLINE MAP SETUP
 
 Ensure offline OpenStreetMap tiles are available in the assets/ directory
+
 The application does not require internet access during runtime
 
 
@@ -93,13 +94,16 @@ The application does not require internet access during runtime
 Ensure the following are installed:
 
 Python 3.9 or higher
+
 pip (Python package manager)
+
 System capable of running Kivy GUI applications
 
 
 📦 Install Dependencies
 
 It is recommended to use a virtual environment:
+
 Create and activate virtual environment
 
 Linux / macOS:  python -m venv venv
@@ -134,28 +138,40 @@ Choose a predefined location or click directly on the map to set the detonation 
 Step 2: Enter Weapon Parameters
 
 Weapon yield (kilotons)
+
 Burst type (surface or airburst)
+
 Wind speed (km/h)
+
 Wind direction
 
 Step 3: Choose Fallout Model
+
 DELFIC – Physics-based, higher-fidelity simulation
+
 WSEG-10 – Empirical, rapid estimation model
 
 Step 4: Set Population Parameters
+
 Select a predefined population density
-Or 
+
+Or
+
 Enter a custom population density
 
 Step 5: Run Simulation
+
 Click “Calculate Nuclear Effects”
 
 #Fallout plume and blast effects will be visualized on the map
 
 Step 6: Analyze Results
 View fallout plume geometry
+
 Examine dose rate and integrated dose fields
+
 Click any map location to compute radiation exposure
+
 Review estimated casualties and affected areas
 
 
@@ -171,15 +187,8 @@ Affected area estimation
 
 
 📂 REPOSITORY STRUCTURE
-├── main.py                  # Application entry point
-├── delfic_engine.py         # Physics-based fallout model
-├── wseg_core.py             # Empirical fallout model
-├── map_widget.py            # Offline map rendering
-├── blast_circles.py         # Blast visualization
-├── standard_atmosphere.py   # Atmospheric properties
-├── assets/                  # Offline map tiles and resources
-├── docs/                    # Project report and references
-└── README.md
+<img width="740" height="276" alt="image" src="https://github.com/user-attachments/assets/e563db8f-7dd7-4455-af7a-76df18402970" />
+
 
 
 🚨 DISCLAIMER
