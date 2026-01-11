@@ -186,7 +186,14 @@ Affected area estimation
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc4dfcd8-bbaf-4f67-a0e9-c2acf2ed3dbc" />
 
 
+
+
 📂 REPOSITORY STRUCTURE
+
+
+
+
+
 <img width="740" height="276" alt="image" src="https://github.com/user-attachments/assets/e563db8f-7dd7-4455-af7a-76df18402970" />
 
 
