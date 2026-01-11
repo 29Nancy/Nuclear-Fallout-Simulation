@@ -1,4 +1,5 @@
 Nuclear Fallout Simulation Using DELFIC and WSEG Models
+
 📖 Overview
 
 This project is an offline nuclear fallout simulation and visualization system designed to model radioactive fallout dispersion following a surface nuclear detonation. The application estimates fallout plume geometry, radiation dose rates, integrated radiation exposure, and population-level casualties using both physics-based and empirical modeling approaches.
