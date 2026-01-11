@@ -38,6 +38,8 @@ Rapid casualty estimation
 Suitable for fast, approximate fallout assessment
 
 
+
+
 🗺️ KEY FEATURES
 
 Fully offline operation
@@ -49,6 +51,8 @@ Shielding and exposure duration analysis
 Comparative modeling using two established fallout methods
 
 
+
+
 🛠️ TECHNOLOGY STACK
 
 Python
@@ -56,6 +60,9 @@ NumPy, SciPy – numerical computation
 Kivy – graphical user interface
 Offline OpenStreetMap tiles
 OpenCV – contour rendering (optional)
+
+
+
 
 
 ⚙️ APPLICATION WORKFLOW
@@ -69,13 +76,18 @@ Casualty estimates and exposure statistics are generated
 User can click on the map to compute local radiation dose
 
 
+
+
 🗺️ OFFLINE MAP SETUP
 
 Ensure offline OpenStreetMap tiles are available in the assets/ directory
 The application does not require internet access during runtime
 
 
+
+
 ▶️ How to Run the Application
+
 🔧 Prerequisites
 
 Ensure the following are installed:
@@ -88,8 +100,8 @@ System capable of running Kivy GUI applications
 📦 Install Dependencies
 
 It is recommended to use a virtual environment:
-
 Create and activate virtual environment
+
 Linux / macOS:  python -m venv venv
                 source venv/bin/activate
 
@@ -99,24 +111,28 @@ Windows:  python -m venv venv
 
 
 Install required packages
-
 pip install numpy scipy kivy opencv-python
+
+
 
 ▶️ Run the Application
 
 From the project root directory, execute:
-
 python main.py
+#The graphical user interface will launch automatically.
 
-The graphical user interface will launch automatically.
+
+
 
 
 🧭 HOW TO USE THE APPLICATION
 
 Step 1: Select Target Location
+
 Choose a predefined location or click directly on the map to set the detonation point
 
 Step 2: Enter Weapon Parameters
+
 Weapon yield (kilotons)
 Burst type (surface or airburst)
 Wind speed (km/h)
